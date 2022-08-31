@@ -1,2 +1,2 @@
 #!/bin/bash
-rm [A-Za-z0-9]~
+rm [A-Za-z.]~
