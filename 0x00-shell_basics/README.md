@@ -5,3 +5,4 @@ Script showing directory content in a long format
 Script showing all file including all hidden files
 Script showing user and group ids in long formats and all hidden files
 Script that creates a directory name
+Script that moves file in folders
