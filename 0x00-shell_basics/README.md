@@ -15,3 +15,4 @@ Script to create a symbolic link
 Script that copies all HTML in current directory to parent directory
 Script that moves files with capital letter
 Script that deletes files ending with ~
+Script to created nested directories
