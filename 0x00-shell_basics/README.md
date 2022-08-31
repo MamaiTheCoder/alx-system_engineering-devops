@@ -8,3 +8,4 @@ Script that creates a directory name
 Script that moves file in folders
 Script that deletes files
 Script to delete a directory
+Script to go back to the previous directory
