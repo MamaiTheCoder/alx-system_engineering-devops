@@ -12,3 +12,5 @@ Script to go back to the previous directory
 Script that read all files in current, parent and boot directory
 Script that prints type of file
 Script to create a symbolic link
+Script that copies all HTML in current directory to parent directory
+
