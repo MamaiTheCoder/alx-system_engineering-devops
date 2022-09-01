@@ -3,4 +3,4 @@ Print the effective username of the current user.
 Print all the groups the current user is part of
 Change the owner of the file hello to the user betty.
 Create an empty file called 'hello.'
-
+Add execute permission to the owner of the file hello.
