@@ -1,2 +1,4 @@
 Create a script that switches the current user to the user betty.
-Write a script that prints the effective username of the current user.
+Print the effective username of the current user.
+Print all the groups the current user is part of
+Change the owner of the file hello to the user betty.
