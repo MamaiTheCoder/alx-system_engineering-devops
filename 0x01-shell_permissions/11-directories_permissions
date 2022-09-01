@@ -1,2 +1,2 @@
-#!ibi_permissions/bash
-chmod -R a+x
+#!/bin/bash
+chmod a+X *
