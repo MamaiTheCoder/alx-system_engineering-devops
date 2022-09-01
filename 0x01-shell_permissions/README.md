@@ -11,3 +11,4 @@ Set the mode of file to 753
 Set the mode of the file  hello same as olleh
 Add execute permission to all subdirectories of the current directory for u, g, and o. Note regular files are not changed
 Create a directory called my_dir with permissions 751 in the working directory.
+Change the group owner to school for the file hello.
