@@ -13,3 +13,4 @@ Add execute permission to all subdirectories of the current directory for u, g, 
 Create a directory called my_dir with permissions 751 in the working directory.
 Change the group owner to school for the file hello.
 Change the owner to vincent and the group owner to staff for all the files and directories in the working directory.
+Change the owner and the group owner of _hello to vincent and staff respectively.
