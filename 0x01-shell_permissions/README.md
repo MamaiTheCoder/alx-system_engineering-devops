@@ -8,3 +8,4 @@ Execute permission to the owner and the group owner, and read permission to othe
 Add execution permission to the owner, the group owner and the other users, to the file hello
 No permission to user and group. All permission to other
 Set the mode of file to 753
+Set the mode of the file  hello same as olleh
