@@ -9,3 +9,4 @@ Add execution permission to the owner, the group owner and the other users, to t
 No permission to user and group. All permission to other
 Set the mode of file to 753
 Set the mode of the file  hello same as olleh
+Add execute permission to all subdirectories of the current directory for u, g, and o. Note regular files are not changed
