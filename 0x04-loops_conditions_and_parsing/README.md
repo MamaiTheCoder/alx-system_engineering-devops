@@ -1,5 +1,15 @@
 #  Loops, conditions and parsing
+
 ALX project done to facilitate completion of Full Stack Software Engineering course.
+
+## Learning Objectives
+* How to create SSH keys.
+* Advantage of using `#!/usr/bin/env bash` over `#!/bin/bash`.
+* Using `while`, `until`, and `for` loops.
+* How to use `if`, `else`, `elif` and `case` condition statements.
+* How to use the `cut` command.
+* What are files and other comparison operators, and how to use them.
+
 ## Technologies
 * Scripts written in Bash
 * Tested on Ubuntu 20.04
@@ -24,3 +34,11 @@ ALX project done to facilitate completion of Full Stack Software Engineering cou
 | `101-tell_the_story_of_passwd` | Displays the content of the file `/etc/passwd` with an specific message |
 | `102-lets_parse_apache_logs` | Displays the visitor IP along with the HTTP status code from an Apache log file |
 | `103-dig_the-data` | Groups visitors by IP and HTTP status code and displays the occurrences, from the greatest to the lowest number |
+
+# Useful Resources
+* Creating a SSH RSA key pair for both [Linux and Mac OS users](https://askubuntu.com/questions/61557/how-do-i-set-up-ssh-authentication-keys), and [Windows users](https://docs.rackspace.com/support/how-to/generating-rsa-keys-with-ssh-puttygen/)
+* [File test operators](https://tldp.org/LDP/abs/html/fto.html)
+* [Comparison operators](https://tldp.org/LDP/abs/html/comparison-ops.html)
+* [Make your scripts portable](https://www.cyberciti.biz/tips/finding-bash-perl-python-portably-using-env.html)
+* [Variable assignment and arithmetic](https://tldp.org/LDP/abs/html/ops.html)
+* [Loop samples](https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_09_01.html)
