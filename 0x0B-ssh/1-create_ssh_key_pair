@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/usr/bin/env bash
 # Script that creates an RSA key pair.
 
 # Set the name and number of bits for the private key
