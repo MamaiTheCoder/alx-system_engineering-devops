@@ -1,6 +1,12 @@
-#!/usr/bin/bash
-# Creates an RSA key pair.
-# Name of the created private key is school
-# Number of bits in the key tobe created is 4096.
-# The created key is protected by passphrase betty.
-ssh-keygen -t rsa -b 4096 -P betty -f school
+#!/usr/bin/env bash
+# Script that creates an RSA key pair.
+
+# Set the name and number of bits for the private key
+KEY_NAME="school"
+KEY_BITS=4096
+
+# Generate the key pair with a passphrase
+ssh-keygen -t rsa -b $KEY_BITS -f $KEY_NAME -N "betty"
+
+# Display the fingerprint and randomart image of the key
+ssh-keygen -lvf $KEY_NAME
