@@ -1,21 +1,7 @@
-#!/usr//bin/env bash
-
-# Install Nginx web server
-apt-get update
-apt-get install -y nginx
-
-# Set up redirection
-sed -i 's/location \/ {/location \/ {\n    return 301 https:\/\/www.youtube.com\/watch?v=QH2-TGUlwu4$request_uri;/g' /etc/nginx/sites-available/default
-
-cat <<EOF > /etc/nginx/sites-available/redirect.conf
-server {
-    listen 80;
-    server_name your_domain.com; # Change this to your domain name
-    return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4$request_uri;
-}
-EOF
-
-ln -s /etc/nginx/sites-available/redirect.conf /etc/nginx/sites-enabled/
-
-# Test and reload Nginx
-nginx -t && systemctl reload nginx
+#!/usr/bin/env bash
+# Script that installs Nginx server and redirects /redirect_me
+apt-get -y update
+apt-get -y install nginx
+echo "Holberton School" > /var/www/html/index.nginx-debian.html
+sed -i "s/server_name _;/server_name _;\n\trewrite ^\/redirect_me https:\/\/github.com\/luischaparroc permanent;/" /etc/nginx/sites-available/default
+service nginx start
