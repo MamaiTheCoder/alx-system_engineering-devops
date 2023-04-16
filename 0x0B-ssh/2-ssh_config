@@ -1,5 +1,5 @@
 Host myserver
-    HostName 52.91.124.154   # replace with my server's IP address
+    HostName 54.160.118.27   # replace with my server's IP address
     User ubuntu            # replace with username on the server
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
